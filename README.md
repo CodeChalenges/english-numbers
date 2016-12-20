@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/CodeChalenges/english-numbers.svg?branch=master)](https://travis-ci.org/CodeChalenges/english-numbers)
+[![Code Climate](https://codeclimate.com/github/CodeChalenges/english-numbers/badges/gpa.svg)](https://codeclimate.com/github/CodeChalenges/english-numbers)
+[![Issue Count](https://codeclimate.com/github/CodeChalenges/english-numbers/badges/issue_count.svg)](https://codeclimate.com/github/CodeChalenges/english-numbers)
+
 # English Number
 
 This gem provides an easy way to translate numbers to their English language representation.
