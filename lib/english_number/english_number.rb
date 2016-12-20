@@ -6,7 +6,7 @@ class EnglishNumber
     @number = number
   end
 
-  def to_english
+  def in_english
     case @number
     when (-19..19)
       non_regular_number(@number)

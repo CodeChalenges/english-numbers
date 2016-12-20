@@ -43,7 +43,7 @@ Inside Ruby interpreter:
 ```ruby
 require 'english_number/english_number'
 
-EnglishNumber.new(25).to_english # twenty-five
+EnglishNumber.new(25).in_english # twenty-five
 ```
 
 ## License
