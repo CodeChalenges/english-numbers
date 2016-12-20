@@ -3,7 +3,7 @@ require_relative "version"
 module English
   module Number
     module Mapping
-      BASE_NUMBERS = {
+      NON_REGULAR_NUMBERS = {
         0 => 'zero',
         1 => 'one',
         2 => 'two',
