@@ -1,4 +1,4 @@
-require_relative "version"
+require_relative 'version'
 
 module English
   module Number
@@ -24,7 +24,7 @@ module English
         17 => 'seventeen',
         18 => 'eighteen',
         19 => 'nineteen'
-      }
+      }.freeze
 
       DOZENS = {
         2 => 'twenty',
@@ -35,7 +35,7 @@ module English
         7 => 'seventy',
         8 => 'eighty',
         9 => 'ninety'
-      }
+      }.freeze
     end
   end
 end
