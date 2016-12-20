@@ -25,4 +25,8 @@ describe EnglishNumber do
       end
     end
   end
+
+  context 'version' do
+    it { expect(EnglishNumber.version).to eq(English::Number::VERSION) }
+  end
 end
