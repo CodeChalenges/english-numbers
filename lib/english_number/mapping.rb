@@ -1,5 +1,3 @@
-require_relative 'version'
-
 module English
   module Number
     module Mapping

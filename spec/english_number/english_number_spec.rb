@@ -3,24 +3,24 @@ require_relative 'test_cases'
 
 describe EnglishNumber do
   context 'positive numbers' do
-    it do
-      TEST_CASES.each do |number, expected_translation|
+    TEST_CASES.each do |number, expected_translation|
+      it "should match '#{number}' to '#{expected_translation}'" do
         expect(EnglishNumber.new(number).in_english).to eq(expected_translation)
       end
     end
   end
 
   context 'negative numbers' do
-    it do
-      TEST_CASES.each do |number, expected_translation|
+    TEST_CASES.each do |number, expected_translation|
+      it "should match '#{-number}' to 'minus #{expected_translation}'" do
         expect(EnglishNumber.new(-number).in_english).to eq("minus #{expected_translation}")
       end
     end
   end
 
   context 'special cases' do
-    it do
-      SPECIAL_TEST_CASES.each do |number, expected_translation|
+    SPECIAL_TEST_CASES.each do |number, expected_translation|
+      it "should match '#{number}' to '#{expected_translation}'" do
         expect(EnglishNumber.new(number).in_english).to eq(expected_translation)
       end
     end

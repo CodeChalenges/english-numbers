@@ -11,7 +11,7 @@ class EnglishNumber
     when (-19..19)
       non_regular_number(@number)
 
-    when (20..99), (-99..-20)
+    when (-99..-20), (20..99)
       regular_number(@number)
     end
   end
