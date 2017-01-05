@@ -1,3 +1,10 @@
+AllCops:
+  Exclude:
+    - '**/bin/**'
+    - '**/spec/**/**'
+    - '*.gemspec'
+    - 'Rakefile'
+
 Metrics/LineLength:
   Enabled: false
 
